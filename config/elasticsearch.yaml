@@ -1,0 +1,5 @@
+cluster.name: "elasticsearch"
+# Listen on all interfaces
+network.host: 0.0.0.0
+# Set this up as a single-node cluster
+discovery.type: "single-node"
