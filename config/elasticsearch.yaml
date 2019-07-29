@@ -3,3 +3,6 @@ cluster.name: "elasticsearch"
 network.host: 0.0.0.0
 # Set this up as a single-node cluster
 discovery.type: "single-node"
+# Use the PORT variable exposed by Render. This isn't strictly necessary
+# but helps improve server startup time.
+http.port: ${PORT}
