@@ -1,7 +1,11 @@
 # README
 
-This is a template repository for running Elasticsearch on Render. It uses [Render Disks](https://render.com/docs/disks) for persistent data storage and [Render Private Networking](https://render.com/docs/private-services) to make Elasticsearch available to your Render apps without exposing it to the public Internet.
+This is a template repository for running Elasticsearch on Render. 
+
+* It uses [Render Disks](https://render.com/docs/disks) for persistent index storage.
+
+* Elasticsearch runs in your [Render private network](https://render.com/docs/private-services), so it is only available to your Render apps.
 
 ## Deployment
 
-See https://render.com/docs/deploy-elasticsearch.
+See https://render.com/docs/elasticsearch.
