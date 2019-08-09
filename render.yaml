@@ -2,15 +2,11 @@ services:
 - type: pserv
   name: elasticsearch
   env: docker
+  plan: standard
   disk:
     name: esdata
     mountPath: /usr/share/elasticsearch/data
     sizeGB: 10
   envVars:
-  - fromGroup: elastic
-
-envVarGroups:
-- name: elastic
-  envVars:
   - key: ES_JAVA_OPTS
-    value: "-Xms512m -Xmx512m"
+    value: -Xms512m -Xmx512m
