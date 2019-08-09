@@ -10,3 +10,5 @@ services:
   envVars:
   - key: ES_JAVA_OPTS
     value: -Xms512m -Xmx512m
+  - key: discovery.type
+    value: single-node
