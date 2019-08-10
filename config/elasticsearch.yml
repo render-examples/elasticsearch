@@ -1,1 +1,3 @@
-cluster.name: "elasticsearch"
+cluster.name: "elastic"
+# bind to all network interfaces
+network.bind_host: 0.0.0.0
