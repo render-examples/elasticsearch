@@ -10,4 +10,4 @@ This is a template repository for running Elasticsearch on Render.
 
 ## Deployment
 
-See https://render.com/docs/elasticsearch.
+See https://render.com/docs/deploy-elasticsearch.
