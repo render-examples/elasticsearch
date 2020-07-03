@@ -7,6 +7,7 @@ services:
     name: esdata
     mountPath: /usr/share/elasticsearch/data
     sizeGB: 10
+  autoDeploy: false # so ES does not restart on a push to this repository.
   envVars:
   - key: ES_JAVA_OPTS
     value: "-Xms512m -Xmx512m"
